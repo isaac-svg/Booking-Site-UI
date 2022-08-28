@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie seat booking</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="movies">
+      <small>Pick a movie</small>
+      <select class="movies-container" id="movie">
+        <option value="10" class="movie-select">Avengers Endgame($10)</option>
+        <option value="8" class="movie-select">Lion King($8)</option>
+        <option value="12" class="movie-select">Toy Story($12)</option>
+        <option value="9" class="movie-select">
+          Endgame Age of Ultron($9)
+        </option>
+      </select>
+    </div>
+    <!-- End of options -->
+    <div class="select-guides">
+      <div class="select-guide">
+        <div class="seat empty"></div>
+        <small>N/A</small>
+      </div>
+      <div class="select-guide">
+        <div class="seat selected"></div>
+        <small>Selected</small>
+      </div>
+      <div class="select-guide">
+        <div class="seat occupied"></div>
+        <small>Occupied</small>
+      </div>
+    </div>
+    <!-- End of sselected guides -->
+
+     <div class="container">
+        <div class="screen"></div>
+           <!-- this div will become the screen -->
+        <div class="seat-settings">
+            <div class="row">
+              <div class="seat"></div>
+              <div class="seat occupied"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+          
+            </div>
+            <div class="row">
+              <div class="seat"></div>
+              <div class="seat occupied"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat "></div>
+              <div class="seat occupied"></div>
+      
+              
+            </div>
+            <div class="row">
+              <div class="seat"></div>
+              <div class="seat "></div>
+              <div class="seat occupied"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+            </div>
+            <div class="row">
+              <div class="seat "></div>
+              <div class="seat occupied"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+            </div>
+            <div class="row">
+              <div class="seat "></div>
+              <div class="seat occupied"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+            </div>
+            <div class="row">
+              <div class="seat "></div>
+              <div class="seat occupied"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+            </div>
+            <div class="row">
+              <div class="seat occupied"></div>
+              <div class="seat "></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat occupied"></div>
+              <div class="seat"></div>
+            </div>
+            <div class="row">
+              <div class="seat "></div>
+              <div class="seat "></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat occupied"></div>
+              <div class="seat "></div>
+            </div>
+          </div>
+     </div>
+    </div>
+    <p class="text">you have have selected <span class="number "> 0</span> seats and the total cost is $ <span class="price ">0</span></p>
+    <script src="app.js"></script>
+  </body>
+</html>
